@@ -23,17 +23,35 @@
 		groups="notdefault,rpi"
 		/>
 
-	<project name="meta-freescale" path="./layers/meta-freescale" remote="yocto" groups="notdefault" />
-	<project name="meta-intel" path="./layers/meta-intel" remote="yocto" groups="notdefault" />
-	<project name="meta-intel-iot-middleware" path="./layers/meta-intel-iot-middleware" remote="yocto" groups="notdefault" />
-	<project name="meta-java" path="./layers/meta-java" remote="yocto" groups="notdefault" />
-	<project name="meta-maker" path="./layers/meta-maker" remote="yocto" groups="notdefault" />
-	<project name="meta-mono" path="./layers/meta-mono" remote="yocto" groups="notdefault" />
-	<project name="meta-qt4" path="./layers/meta-qt4" remote="yocto" groups="notdefault" />
+	<project name="meta-freescale" path="./layers/meta-freescale" remote="yocto"
+		groups="notdefault"
+		/>
+	<project name="meta-intel" path="./layers/meta-intel" remote="yocto"
+		groups="notdefault"
+		/>
+	<project name="meta-intel-iot-middleware" path="./layers/meta-intel-iot-middleware" remote="yocto"
+		groups="notdefault"
+		/>
+	<project name="meta-java" path="./layers/meta-java" remote="yocto"
+		groups="notdefault"
+		/>
+	<project name="meta-maker" path="./layers/meta-maker" remote="yocto"
+		groups="notdefault"
+		/>
+	<project name="meta-mono" path="./layers/meta-mono" remote="yocto"
+		groups="notdefault"
+		/>
+	<project name="meta-qt4" path="./layers/meta-qt4" remote="yocto"
+		groups="notdefault"
+		/>
 	<project name="meta-raspberrypi" path="./layers/meta-raspberrypi" remote="yocto"
 		groups="notdefault,rpi"
 		/>
-	<project name="meta-ti" path="./layers/meta-ti" remote="yocto" groups="notdefault" />
-	<project name="meta-xilinx" path="./layers/meta-xilinx" remote="yocto" groups="notdefault" />
+	<project name="meta-ti" path="./layers/meta-ti" remote="yocto"
+		groups="notdefault"
+		/>
+	<project name="meta-xilinx" path="./layers/meta-xilinx" remote="yocto"
+		groups="notdefault"
+		/>
 
 </manifest>
