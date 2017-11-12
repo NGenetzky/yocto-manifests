@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="oe" fetch="git://git.openembedded.org" />
+	<remote name="yocto" fetch="git://git.yoctoproject.org" />
+
+	<!-- project
+		"name": git repository's name on hosting server
+		"remote": the remote host from above (if not the default)
+		"revision": commitish to checkout (if not the default)
+		"path": directory where git repository gets cloned/synced
+	-->
+
+	<project name="poky" path="./sources/poky" remote="yocto" groups="notdefault">
+		<linkfile dest="./layers/meta" src="meta" />
+		<linkfile dest="./layers/meta-poky" src="meta-poky" />
+		<linkfile dest="./layers/meta-yocto-bsp" src="meta-yocto-bsp" />
+	</project>
+
+	<project name="meta-openembedded" path="./layers/meta-openembedded" remote="oe" groups="notdefault" />
+
+</manifest>

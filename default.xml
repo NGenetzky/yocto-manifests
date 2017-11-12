@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<default remote="yocto" revision="master"/>
 
-	<remote name="yocto" fetch="git://git.yoctoproject.org" />
-	<remote name="oe" fetch="git://git.openembedded.org" />
+	<default revision="master"/>
 
-	<!-- project
-		"name": git repository's name on hosting server
-		"remote": the remote host from above (if not the default)
-		"revision": commitish to checkout (if not the default)
-		"path": directory where git repository gets cloned/synced
-	-->
-
-	<project name="poky" remote="yocto" />
-	<project name="meta-openembedded" remote="oe" />
+	<include name="yocto.xml" />
+	<include name="poky.xml" />
 
 </manifest>
