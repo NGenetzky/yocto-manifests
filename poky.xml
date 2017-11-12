@@ -7,6 +7,4 @@
 		<linkfile dest="./layers/meta-yocto-bsp" src="meta-yocto-bsp" />
 	</project>
 
-	<extend-project name="meta-openembedded" groups="poky" />
-
 </manifest>
