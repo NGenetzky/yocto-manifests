@@ -11,7 +11,7 @@
 		"path": directory where git repository gets cloned/synced
 	-->
 
-	<project name="poky" path="./sources/poky" remote="yocto" groups="notdefault">
+	<project name="poky" path="./layers/poky" remote="yocto" groups="notdefault">
 		<linkfile dest="./layers/meta" src="meta" />
 		<linkfile dest="./layers/meta-poky" src="meta-poky" />
 		<linkfile dest="./layers/meta-yocto-bsp" src="meta-yocto-bsp" />

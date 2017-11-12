@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remove-project name="poky" />
-	<project name="poky" path="./poky" remote="yocto" groups="default">
+	<project name="poky" path="./poky" remote="yocto" groups="notdefault,poky">
 		<linkfile dest="./layers/meta" src="meta" />
 		<linkfile dest="./layers/meta-poky" src="meta-poky" />
 		<linkfile dest="./layers/meta-yocto-bsp" src="meta-yocto-bsp" />
 	</project>
 
-	<extend-project name="meta-openembedded" groups="default" />
+	<extend-project name="meta-openembedded" groups="poky" />
 
 </manifest>
