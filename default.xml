@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<default revision="master"/>
+	<default revision="pyro"/>
 
 	<include name="yocto.xml" />
 	<include name="poky.xml" />
