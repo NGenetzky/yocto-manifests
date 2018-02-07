@@ -53,6 +53,7 @@
 		/>
 	<project name="meta-ti" path="./layers/meta-ti" remote="yocto"
 		groups="notdefault,bb"
+        revision="morty"
 		/>
 	<project name="meta-xilinx" path="./layers/meta-xilinx" remote="yocto"
 		groups="notdefault"
