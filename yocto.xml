@@ -23,6 +23,10 @@
 		groups="notdefault,rpi"
 		/>
 
+	<project name="openembedded-core" path="./layers/openembedded-core" remote="oe"
+		groups="notdefault,bb"
+		/>
+
 	<project name="meta-freescale" path="./layers/meta-freescale" remote="yocto"
 		groups="notdefault"
 		/>
@@ -48,7 +52,7 @@
 		groups="notdefault,rpi"
 		/>
 	<project name="meta-ti" path="./layers/meta-ti" remote="yocto"
-		groups="notdefault"
+		groups="notdefault,bb"
 		/>
 	<project name="meta-xilinx" path="./layers/meta-xilinx" remote="yocto"
 		groups="notdefault"
