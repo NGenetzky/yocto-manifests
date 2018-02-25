@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="resin-os" fetch="git://github.com/resin-os" />
+
+	<!-- project
+		"name": git repository's name on hosting server
+		"remote": the remote host from above (if not the default)
+		"revision": commitish to checkout (if not the default)
+		"path": directory where git repository gets cloned/synced
+	-->
+
+	<project name="resin-raspberrypi" path="./resin-raspberrypi" remote="resin-os"
+        revision="master"
+		groups="notdefault,resin-rpi"
+		>
+		<!-- <linkfile dest="./layers/meta" src="layers/meta-openembedded" /> -->
+	</project>
+
+</manifest>
