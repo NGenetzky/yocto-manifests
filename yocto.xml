@@ -20,7 +20,7 @@
 	</project>
 
 	<project name="meta-openembedded" path="./layers/meta-openembedded" remote="oe"
-		groups="notdefault,rpi"
+		groups="notdefault,rpi,oe"
 		/>
 
 	<project name="openembedded-core" path="./layers/openembedded-core" remote="oe"
